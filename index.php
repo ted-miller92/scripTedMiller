@@ -1,23 +1,68 @@
 <?php include "includes/header.php" ?>
-<div class="contentGridContainer">
-    <div class="contentCell iconLeft">
-        <i class="fas fa-laptop-code"></i>
-    </div> 
-    <div class="contentCell right">
-        <p>I am currently a student of web development at Seattle Central College. I have been interested in programming since early 2020, 
-            and I've worked on various small projects throughout my time at school.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h5 class="display-3">I like to make websites.</h5>
+            <p class="mb-5">From the moment I started coding, I have been excited and energized to work with people who want to promote their business. 
+            Having an internet presence is essential these days, and making that presence useful and impactful is equally important.</h5>
+        </div>
     </div>
-    <div class="contentCell left">
-        <p>Most of my adult life has been spent behind a saute pan with a set of tongs, coming home smelling like onions and pasta water.</p>
+    <div class="row mb-5">
+        <div class="col-lg-3 ">
+            <div class="list-group m-1">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1 display-2">Work</h5>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">See some of my work</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="list-group m-1">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1 display-2">Bio</h5>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Learn a bit about me</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="list-group m-1">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1 display-2">Resume</h5>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">See what I offer</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="list-group m-1">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1 display-2">Contact</h5>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Get in touch!</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="contentCell iconRight">
-        <i class="fas fa-hamburger"></i>
-    </div>
-    <div class="contentCell iconLeft">
-        <i class="fas fa-code-branch"></i>
-    </div>
-    <div class="contentCell right">
-        <p>Since I started school in Fall of 2020, I have learned HTML, CSS, Javascript, and some Python, and I've become comfortable using Linux as an OS. It's been enlightening and kind of empowering to learn about the internet and how it functions, and its place in our world.</p>
-    </div>          
-</div>
 <?php include "includes/footer.php" ?>
