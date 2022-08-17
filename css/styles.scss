@@ -1,0 +1,83 @@
+/*
+Dark blue ish: rgba(66, 85, 99) or #425563
+Khaki: rgb(214, 204, 163) or #D6CCA3
+Orange ish: rgb(214, 164, 97) or #D6A461
+Purple: rgb(167, 123, 202) or #A77BCA
+Red: rgb(224, 79, 57) or #E04F39
+Green: rgb(161, 216, 132) or #A1D884
+*/
+
+/* primary colors */
+
+$darkBlue: #425563;
+$khaki: #D6CCA3;
+$orange: #D6A461;
+$purple: #A77BCA;
+$red: #E04F39;
+$green: #A1D884;
+
+*{
+    box-sizing:border-box;
+}
+
+/* rules for mobile */
+@media all and (min-width: 1px){
+    html{
+        background-color:$darkBlue;
+    }
+    /*Navigation bar styles including responsive
+-------------------------------------------*/
+.topNav{    
+    // top:0;
+    overflow:hidden;
+    // width:100vw;
+    z-index:+10;
+}
+.topNav a {
+    float: left;
+    display: none;
+    color: #D6A461;
+    text-align: center;
+    // padding: 3vw;
+    text-decoration: none;
+    font-size: 7vw;
+}
+.topNav a:hover{
+    color:#A1D884;
+}
+.topNav.responsive {
+    position:absolute;
+    width:100vw;
+}
+.topNav.responsive a.icon{
+    // position:relative;
+    display:block;
+    // right:0;
+    // top:0;
+    float:right;
+}
+
+.topNav a.icon {
+    float:right;
+    display:block;
+}
+.topNav.responsive a{
+    float:none;
+    display:block;
+    text-align:left;
+    background-color:rgba(66, 85, 99, 0.95);
+}
+}
+
+@media all and (min-width: 480px) and (max-width: 1199px){
+    html{
+        background-color:$orange;
+    }
+}
+
+/* rules for desktop */
+@media all and (min-width: 1200px){
+    html{
+        background-color:$darkBlue;
+    }
+}

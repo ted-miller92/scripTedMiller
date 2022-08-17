@@ -1,0 +1,51 @@
+.jumbotron{    
+    padding-top:10vh;
+    padding-bottom:10vh;
+    background:linear-gradient(0deg,rgb(255, 255, 255), rgba(241, 255, 243, 0.55)),
+                url("../images/20180820_093333_HDR-1.jpg");
+}
+.jumbotron img{
+    border-radius:50%;
+    display: block;
+    max-width:220px;
+    margin-left:auto;
+    margin-right:auto;
+    top: 50%;
+}
+
+p{
+    font-size: large;
+}
+.list-group{
+    box-shadow: 1px 1px 5px rgb(107, 107, 107);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.list-group:hover{
+    box-shadow: 1px 1px 5px rgb(107, 107, 107);
+    transform: scale(1.03, 1.03);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/*ANimation!*/
+i#underscore{
+    font-weight:100;
+    animation:1.4s blink step-end infinite;
+}
+@keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+
+@media (min-width: 768px){
+    .jumbotron img{
+        border-radius:50%;
+        display: block;
+        max-width:220px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
