@@ -1,8 +1,8 @@
 <?php include "includes/header.php" ?>
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
-            <h5 class="display-3">I like to make websites.</h5>
+        <div class="col-lg-6 my-4">
+            <h3 class="display-3">I like to make websites</h3>
         </div>
     </div>
     <div class="row mb-5">

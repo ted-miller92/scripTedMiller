@@ -33,7 +33,7 @@
                         </div>
                         <div class="card-body">
                           <a href="#" class="btn btn-primary">More info</a>
-                          <a href="https://github.com/ted-miller92/etch-a-sketch">github</a>
+                          <a class="btn btn-primary" href="https://github.com/ted-miller92/etch-a-sketch" target="_blank">github</a>
                         </div>
                     </div>
                 </div>
@@ -49,6 +49,7 @@
                         </div>
                         <div class="card-body">
                           <a href="#" class="btn btn-primary">More info</a>
+                          <a class="btn btn-primary" href="https://github.com/ted-miller92/movieClub" target="_blank">github</a>
                         </div>
                     </div>
                 </div>
