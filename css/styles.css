@@ -26,6 +26,10 @@ p{
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+.work-image{
+    max-height:100%;
+}
+
 /*ANimation!*/
 i#underscore{
     font-weight:100;
