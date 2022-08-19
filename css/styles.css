@@ -26,6 +26,16 @@ p{
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+.card{
+    box-shadow: 1px 1px 5px rgb(182, 182, 182);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card:hover{
+    box-shadow: 1px 1px 5px rgb(107, 107, 107);
+    transform: scale(1.03, 1.03);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 .work-image{
     max-height:100%;
 }

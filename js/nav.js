@@ -6,4 +6,3 @@ function navFunction() {
         x.className = "topNav";
     }
 }
-
