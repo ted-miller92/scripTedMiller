@@ -1,45 +1,59 @@
 <?php include "includes/header.php" ?>
 
-<a href="whisperWheelWorks.php" target="_blank">Whisper Wheel Works</a>
 <div class="container">
-    <div class="row">
-        <div class="work-item col-lg-4">
-            <div class="card mb-3">
-                <h3 class="work-item-title card-header">Card header</h3>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+            <div class="row">
+                <div class="col-lg-6 my-4">
+                <h3 class="display-3">Projects</h3>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card border-0 mb-3">
+                        <a href="https://www.whisperwheelworks.com" target="_blank">
+                            <h3 class="text-white bg-primary card-header">Whisper Wheel Works</h3>
+                        </a>
+                        <img src="images/whisperWheelWorks-desktopView.png">
+                        <div class="card-body">
+                            <h5 class="card-subtitle text-muted">Website for local business</h5>
+                        </div>
+                        <div class="card-body">
+                          <a href="whisperWheelWorks.php" class="btn btn-primary">More info</a>
+                        </div>
+                    </div>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+
+                <div class="col-lg-4">
+                    <div class="card border-0 mb-3">
+                        <a href="https://www.scriptedmiller.com/webprojects/etch-a-sketch/" target="_blank">
+                            <h3 class="text-white bg-primary card-header">Etch a Sketch</h3>
+                        </a>
+                        <img src="images/etch-a-sketch-desktop-view.png">
+                        <div class="card-body">
+                            <h5 class="card-subtitle text-muted">Etch a Sketch emulation built with JavaScript</h5>
+                        </div>
+                        <div class="card-body">
+                          <a href="#" class="btn btn-primary">More info</a>
+                          <a class="btn btn-primary" href="https://github.com/ted-miller92/etch-a-sketch" target="_blank">github</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer text-muted">
-                    2 days ago
-                </div>
-                </div>
-                <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Card title</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+
+                <div class="col-lg-4">
+                    <div class="card border-0 mb-3">
+                        <a href="https://www.scriptedmiller.com/webprojects/movieClub/login.php" target="_blank">
+                            <h3 class="text-white bg-primary card-header">Movie Club</h3>
+                        </a>
+                        <img src="images/moveClub-desktop-view.png">
+                        <div class="card-body">
+                            <h5 class="card-subtitle text-muted">Movie database website</h5>
+                        </div>
+                        <div class="card-body">
+                          <a href="#" class="btn btn-primary">More info</a>
+                          <a class="btn btn-primary" href="https://github.com/ted-miller92/movieClub" target="_blank">github</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+        
 <?php include "includes/footer.php" ?>

@@ -30,7 +30,7 @@
                 <div class="navbar-collapse collapse" id="navbarColor01" style="">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="./work.php">Work</a>
+                            <a class="nav-link" href="./work.php">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./bio.php">Bio</a>

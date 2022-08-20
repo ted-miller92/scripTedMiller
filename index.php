@@ -1,18 +1,16 @@
 <?php include "includes/header.php" ?>
 <div class="container">
     <div class="row">
-        <div class="col-md-8">
-            <h5 class="display-3">I like to make websites.</h5>
-            <p class="mb-5">From the moment I started coding, I have been excited and energized to work with people who want to promote their business. 
-            Having an internet presence is essential these days, and making that presence useful and impactful is equally important.</h5>
+        <div class="col-lg-6 my-4">
+            <h3 class="display-3">I like to make websites</h3>
         </div>
     </div>
     <div class="row mb-5">
         <div class="col-lg-3 ">
             <div class="list-group m-1">
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                <a href="./work.php" class="list-group-item list-group-item-action flex-column align-items-start active">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1 display-2">Work</h5>
+                        <h5 class="mb-1 display-2">Projects</h5>
                     </div>
                 </a>
                 <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
