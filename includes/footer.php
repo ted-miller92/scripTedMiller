@@ -4,8 +4,8 @@
                         <p>ted@scriptedmiller.com</p>
                     </span>
                     <span >
-                        <a class="mx-3" href="#" target="_blank"><i class="fa-brands fa-square-github fa-2xl"></i></a>
-                        <a class="mx-3" href="#" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                        <a class="mx-3" href="https://github.com/ted-miller92" target="_blank"><i class="fa-brands fa-square-github fa-2xl"></i></a>
+                        <a class="mx-3" href="https://www.linkedin.com/in/tedmiller92/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
                     </span>
                 </div>
         </div><!--END OF CONTAINER-->
